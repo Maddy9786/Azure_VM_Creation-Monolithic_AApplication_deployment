@@ -9,3 +9,5 @@ variable "pips" {}
 variable "nsgs" {}
 
 variable "vms" {}
+
+variable "db" {}

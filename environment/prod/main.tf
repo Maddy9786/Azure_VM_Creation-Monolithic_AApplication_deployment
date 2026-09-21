@@ -34,4 +34,10 @@ module "vms" {
 
 }
 
+module "my_pgdb" {
+  source = "../../module/azurerm_postgress_db"
+  db     = var.db
+
+}
+
 

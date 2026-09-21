@@ -137,4 +137,20 @@ vms = {
 }
 
 
+db = {
+
+  db1 = {
+    name                = "postgresdb123"
+    location            = "centralindia"
+    resource_group_name = "vm_rg"
+
+    administrator_login          = "admin123"
+    administrator_login_password = "Test@123"
+
+    sku_name   = "B_Standard_B1ms"
+    version    = "11"
+    storage_mb = 32768
+  }
+}
+
 
